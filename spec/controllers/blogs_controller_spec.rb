@@ -36,7 +36,6 @@ describe BlogsController do
 
   describe "GET index" do
     it "assigns all blogs as @blogs" do
-      binding.pry_remote
       blog = Blog.create! valid_attributes
       get :index, {}, valid_session
       assigns(:blogs).should eq([blog])
