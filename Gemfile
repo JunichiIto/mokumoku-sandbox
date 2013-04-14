@@ -28,4 +28,7 @@ group :development do
   gem 'pry'
   gem 'pry-doc'
   gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'pry-stack_explorer'
+  gem 'pry-debugger'
 end
