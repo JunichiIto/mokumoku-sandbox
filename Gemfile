@@ -31,4 +31,5 @@ group :development do
   gem 'pry-remote'
   gem 'pry-stack_explorer'
   gem 'pry-debugger'
+  gem 'awesome_print', require: 'awesome_print'
 end
